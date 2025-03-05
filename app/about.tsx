@@ -8,7 +8,7 @@ export default function AboutUs() {
         <h2 className="text-4xl font-bold text-gray-900 mb-4">ABOUT US</h2>
         <p className="text-gray-600 leading-relaxed mb-6">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
           ever since the 1500s, when an unknown printer took a galley of type
           and scrambled it to make a type specimen book. It has survived not
           only five centuries, but also the leap into electronic typesetting,
@@ -23,11 +23,12 @@ export default function AboutUs() {
       <div className="lg:w-1/2 mt-8 lg:mt-0">
         <div className="overflow-hidden rounded-3xl">
           <Image
-            src="/photos/main2.jpg" // Change this path if necessary
+            src="/photos/main2.jpg" // Ensure this path is correct
             alt="Interior Design"
-            width={600} // Adjust width as needed
-            height={400} // Adjust height as needed
+            width={600}
+            height={400}
             className="rounded-3xl"
+            priority // Helps with faster loading
           />
         </div>
       </div>
